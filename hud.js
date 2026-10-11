@@ -26,7 +26,7 @@
   const MAX_RPM     = 8000;
   const REDLINE_RPM = 6600;
   const RPM_SEGS    = 20;      // jumlah segmen bar RPM
-  const WELCOME_TEXT = 'Hi Alex';
+  const WELCOME_TEXT = '';
   const $ = id => document.getElementById(id);
 
   /* =======================================================
@@ -375,7 +375,7 @@
 
   /* =======================================================
      10. 🔊 WELCOME SOUND
-         "Hi Alex"
+         ""
          Cara pakai:
            - Otomatis saat NUI load
            - window.playWelcomeSound(true)   → manual
