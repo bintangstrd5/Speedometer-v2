@@ -26,7 +26,7 @@
   const MAX_RPM     = 8000;
   const REDLINE_RPM = 6600;
   const RPM_SEGS    = 20;      // jumlah segmen bar RPM
-  const WELCOME_TEXT = 'Selamat datang Bos Shaquille Carvinson';
+  const WELCOME_TEXT = 'Hi Alex';
   const $ = id => document.getElementById(id);
 
   /* =======================================================
